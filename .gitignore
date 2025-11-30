@@ -1,0 +1,121 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+.packages
+build/
+flutter_*.png
+
+# Android related
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# Gradle
+.gradle/
+**/gradle-wrapper.jar
+gradle/
+gradlew
+gradlew.bat
+local.properties
+
+# Android generated folders
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/app/*.keystore
+**/android/app/*.jks
+**/android/app/google-services.json
+
+# iOS/Xcode related
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/App.framework
+**/ios/Flutter/engine/
+
+# macOS related
+**/macos/Flutter/Flutter.framework
+**/macos/Flutter/Flutter.podspec
+**/macos/.symlinks/
+**/macos/Pods/
+**/macos/Runner.xcworkspace/
+**/macos/Runner/GeneratedPluginRegistrant.*
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Firebase / Google Services
+**/ios/Runner/GoogleService-Info.plist
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Coverage
+coverage/
+
+# Exceptions
+# Keep exception for files that should be tracked
+!/android/app/src/main/res/values/strings.xml
+!/android/app/src/main/AndroidManifest.xml
